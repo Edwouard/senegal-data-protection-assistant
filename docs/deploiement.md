@@ -40,7 +40,7 @@
 
 1. Clonez le dépôt (ou téléchargez l'archive) :
    ```bash
-   git clone https://github.com/votre-nom/chatbot-rag.git
+   git clone https://github.com/Edwouard/senegal-data-protection-assistant.git
    cd chatbot-rag
    ```
 

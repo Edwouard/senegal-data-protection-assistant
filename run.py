@@ -21,7 +21,7 @@ def signal_handler(sig, frame):
     sys.exit(0)
 
 
-def check_service_ready(port, max_attempts=20, wait_time=0.5):
+def check_service_ready(port, max_attempts=20, wait_time=2):
     """Vérifie si un service est prêt sur le port spécifié"""
     import socket
 
@@ -30,7 +30,7 @@ def check_service_ready(port, max_attempts=20, wait_time=0.5):
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             sock.settimeout(1)
-            result = sock.connect_ex(("localhost", port))
+            result = sock.connect_ex(("0.0.0.0", port))
             sock.close()
             if result == 0:
                 return True
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Configuration des variables d'environnement
-    os.environ["API_URL"] = f"http://localhost:{args.api_port}"
+    os.environ["API_URL"] = f"http://0.0.0.0:{args.api_port}"
 
     # Configuration du gestionnaire de signal pour l'arrêt propre
     signal.signal(signal.SIGINT, signal_handler)

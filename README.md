@@ -28,7 +28,11 @@ Le **Chatbot-RAG** est un assistant conversationnel spécialisé dans la législ
 ## 🖼️ Captures d'écran
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Interface+du+Chatbot-RAG" alt="Interface du Chatbot-RAG" width="800"/>
+  <img src="assets/images/screenshots/ui_2.png" alt="Interface principale" width="800"/>
+  <p><em>Interface principale du Chatbot</em></p>
+  
+  <img src="assets/images/screenshots/ui_1.png" alt="Exemple de conversation" width="800"/>
+  <p><em>Exemple de réponse avec références aux articles de loi</em></p>
 </div>
 
 ## 🚀 Installation et démarrage rapide
@@ -173,7 +177,7 @@ EMBEDDING_MODEL = "votre_modele_preferé"
 
 Le système a été optimisé pour :
 - **Précision** : Les réponses sont basées uniquement sur le texte de loi
-- **Rapidité** : Le temps de réponse moyen est inférieur à 2 secondes
+- **Rapidité** : Le temps de réponse moyen est inférieur à 8 secondes
 - **Pertinence** : Les résultats sont classés par score de similarité
 
 ## 🤝 Contribution
@@ -197,5 +201,5 @@ Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue ou à cont
 ---
 
 <div align="center">
-  <p>Développé avec ❤️ pour simplifier l'accès au droit sénégalais</p>
+  <p>Développé pour simplifier l'accès au droit sénégalais</p>
 </div>

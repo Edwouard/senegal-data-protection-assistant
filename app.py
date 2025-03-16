@@ -94,7 +94,7 @@ async def chat(request: ChatRequest):
         Je suis un assistant spécialisé dans la loi sénégalaise sur la protection des données personnelles (Loi n° 2008-12 du 25 janvier 2008).
 
         Votre question ne semble pas porter sur ce sujet. Je peux vous aider avec des questions comme :
-        - "Qu'est-ce que la CDP et quelles sont ses missions ?",
+        - Qu'est-ce que la Commission des Données Personnelles (CDP) et quelles sont ses missions ?,
         - Quels sont les droits des personnes concernées par un traitement de données ?
         - Comment la Commission des Données Personnelles (CDP) est-elle organisée ?
         - Quelles sont les formalités préalables à un traitement de données ?
