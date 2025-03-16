@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+sentence-transformers
+nltk
+faiss-cpu
+google-generativeai
+pymupdf
+gradio
+requests

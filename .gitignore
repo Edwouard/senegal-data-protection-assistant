@@ -1,0 +1,37 @@
+# Environnement virtuel
+venv/
+env/
+.env
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Fichiers de l'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'index FAISS (à reconstruire lors du déploiement)
+data/index/faiss_index.bin
+data/index/metadata.pkl
+
+# Fichiers de données volumineux (optionnel, à discuter selon votre stratégie)
+
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
