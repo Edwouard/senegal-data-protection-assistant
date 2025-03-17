@@ -46,7 +46,7 @@ Le **Chatbot-RAG** est un assistant conversationnel spécialisé dans la législ
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/votre-nom/chatbot-rag.git
+git clone https://github.com/Edwouard/senegal-data-protection-assistant.git
 cd chatbot-rag
 
 # Installer les dépendances
@@ -74,7 +74,7 @@ L'application sera accessible à l'adresse :
 docker build -t votre_nom_utilisateur/chatbot-rag .
 
 # Exécuter le conteneur
-docker run -p 8000:8000 -p 7860:7860 -e GEMINI_API_KEY=votre_clé_api votre_nom_utilisateur/chatbot-rag
+docker run -p 8000:8000 -p 7860:7860 -e GEMINI_API_KEY="votre_clé_api" 
 ```
 
 ## 💡 Utilisation

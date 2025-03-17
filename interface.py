@@ -328,7 +328,7 @@ with gr.Blocks(theme=theme) as demo:
 
     # Exemples de questions
     gr.Examples(
-        exemples=[
+        examples=[
             "Qu'est-ce que la Commission des Données Personnelles (CDP) et quelles sont ses missions ?",
             "Quels sont les droits des personnes concernées par un traitement de données personnelles ?",
             "Dans quels cas peut-on transférer des données personnelles vers un pays tiers ?",
@@ -337,6 +337,7 @@ with gr.Blocks(theme=theme) as demo:
             "Comment est définie une donnée à caractère personnel ?",
         ],
         inputs=msg,
+        label="Exemples",
     )
 
     # Gestion des interactions avec l'API de progression intégrée
